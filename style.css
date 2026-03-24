@@ -118,3 +118,22 @@ header {
     text-align: center;
     font-size: 14px;
 }
+
+/* No teu style.css */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza as imagens */
+    gap: 20px;
+    padding: 50px 10%;
+}
+
+.gallery-item {
+    border: 1px solid #333;
+    width: 250px;
+    border-radius: 10px; /* Bordas arredondadas para um look moderno */
+    overflow: hidden; /* Garante que a imagem não saia dos limites na animação */
+    background-color: #1a1a1a;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease; /* Suaviza a animação */
+}
